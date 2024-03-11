@@ -22,10 +22,7 @@ const TotalThanks = mongoose.model("TotalThanks", { count: Number });
 
 const io = new Server({
   cors: {
-    origin: [
-      "http://localhost:5173",
-      "https://thanks-mrskeltal-1.onrender.com",
-    ],
+    origin: ["http://localhost:5173", "https://thanks-mrskeltal.vercel.app/"],
   },
 });
 
