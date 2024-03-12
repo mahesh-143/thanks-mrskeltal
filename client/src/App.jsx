@@ -79,6 +79,12 @@ function App() {
         ))}
       </ul>
       <button onClick={sayThanks}>Thank Mr Skeltal</button>
+      <p>
+        Made by <a href="https://github.com/mahesh-143">mahesh-143</a>
+      </p>
+      <p>
+        Inspired from <a href="https://💀🎺.tk">💀🎺.tk</a>
+      </p>
     </main>
   );
 }
